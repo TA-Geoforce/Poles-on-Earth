@@ -1,14 +1,31 @@
-import React from "react"
+import React from 'react';
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import MyMap from "../components/maps"
+import Layout from '../components/Layout';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import EmailForm from '../components/EmailForm';
+import SlideShow from '../components/SlideShow';
+import Background from '../components/Background';
+
+var settings = {
+  images: [
+    { url: require('../assets/images/bg01.jpg'), position: 'center' },
+    { url: require('../assets/images/bg02.jpg'), position: 'center' },
+    { url: require('../assets/images/bg03.jpg'), position: 'center' },
+  ],
+  // Delay.
+  delay: 6000,
+};
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <MyMap />
+    
+    <Header />    
+    <EmailForm />    
+    <Footer />   
+    <SlideShow settings={settings} />
+    <Background />
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

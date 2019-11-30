@@ -5,5 +5,4 @@
  */
 
 // You can delete this file if you're not using it
-import "./src/styles/leaflet.draw.css"
-import "./src/styles/react-leaflet-geosearch.css"
+import 'leaflet/dist/leaflet.css';
