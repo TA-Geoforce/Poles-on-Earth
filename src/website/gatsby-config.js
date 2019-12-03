@@ -22,9 +22,16 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: 'gatsby-plugin-react-leaflet',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        linkStyles: false // (default: true) Enable/disable loading stylesheets via CDN
+        name: `backgrounds`,
+        path: `${__dirname}/src/assets/images/background`, // wherever background images are stored
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-zopfli',
+      options: {
+        extensions: ['css', 'html', 'js', 'svg']
       }
     },
     'gatsby-plugin-sass',

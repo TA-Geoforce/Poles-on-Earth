@@ -29,6 +29,7 @@
 	@import 'base/reset';
 	@import 'base/page';
 	@import 'base/bg';
+	@import 'base/bg1';
 	@import 'base/typography';
 
 // Components.
@@ -46,3 +47,6 @@
 	@import 'layout/header';
 	@import 'layout/signup-form';
 	@import 'layout/footer';
+
+//Map
+	@import 'map';
