@@ -4,6 +4,8 @@ This website is a static website that uses Gatsby.js as main framework and react
 
 ## Preview
 
+![preview](../../images/preview.gif)
+
 ## Website
 
 The website is being published under:
