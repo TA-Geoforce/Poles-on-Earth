@@ -1,23 +1,25 @@
-# Poles-on-Earth
-Poles on Earth is an AI web service that provides the positions of utility poles everywhere on Earth using satellite imagery.
+# Poles-on-Earth 
 
-## Architecture
+![alt text](./images/brand.png "Poles on Earth") 
+&nbsp;
 
-### 1. Website 
+[![Poles-on-Earth](https://img.shields.io/badge/PolesOnEarth-.com-yellow.svg)](https://polesonearth.com)
+[![Deep Learning](https://img.shields.io/badge/DeepLearning-2020-purple.svg)](./LICENSE)
+[![License](https://img.shields.io/badge/MIT-License%202.0-blue.svg)](./LICENSE)
+[![T.A. Geoforce](https://img.shields.io/badge/PC-T.A.GEOFORCE-black.svg)](https://tageoforce.com)
 
-https://polesonearth.com
+[https://polesonearth.com](https://polesonearth.com)
 
-A static website where the users can select an area of interest and execute the AI Service.
 
-### 2. AI Service
+**Poles on Earth** is an AI web service that provides the positions of utility poles everywhere on Earth using satellite imagery.
 
-The main webservice that is executed using the selected area of the user. The result is a vector file in GeoJSON format where utility poles are located.
+See the [documentation](/docs/) for more details.
 
 ## License
 
 MIT License
 
-Copyright (c) 2019 T.A. Geoforce P.C.
+Copyright (c) 2020 T.A. Geoforce P.C.
 
 ## Contact
 
