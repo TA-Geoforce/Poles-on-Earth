@@ -43,6 +43,7 @@ Contact: info@tageoforce.com
 Utility poles also called power poles or electricity poles, which support wires and electric cables that carry electricity from power companies to end users. These support three facilities including electric power, cable television, and telephone. Material used in the production of utility pole is wood, concrete, composite, and steel, and depending on the use of the material, life span of typical utility pole varies.
 
 ![](images/Power%20Poles%201.jpg "Utility pole")
+
 *Chart 1. Source [web](https://www.materialsperformance.com/articles/material-selection-design/2019/01/control-of-environmental-degradation-of-concrete-power-poles)*
 
 By Type: 
@@ -126,6 +127,7 @@ Using our previous train datasets we re-executed all the case areas using other 
 |     7      |    3   |  0.11 |   2.5 hours  |   YES   |
 |     8      |    2   |  0.11 |   1.8 hours  |   NO    |
 |     9      |    3   |  0.11 |   2.4 hours  |   YES   |
+
 *Table 1. **Poles on Earth** experiments evaluation performance execution pipeline.* 
 
 The `Results` = `NO` means that either was stopped or crashed.
@@ -141,6 +143,7 @@ The `Results` = `NO` means that either was stopped or crashed.
 | F1        |        0.030           |      0.34        |        0.06   |  0.26   |
 | Count Error |      -0.93           |     -0.56        |       -0.93   |  -0.661 |
 | Ground Truth Count| 62.0           |      271         |        30.0   |   363   |
+
 *Table 2. Koropi case area prediction metrics using model 0.11* 
 
 ![](images/koropi-good.0.11.png "Koropi electrical poles good performance")
@@ -165,6 +168,7 @@ The `Results` = `NO` means that either was stopped or crashed.
 | F1        |        0.321           |      0.46        |        0.75   |  0.44   |
 | Count Error |      0.023           |     0.186        |       -0.26   |  0.076  |
 | Ground Truth Count| 86.0           |      123         |        26.0   |   235   |
+
 *Table 3. Tinos case area prediction metrics using model 0.11* 
 
 ![](images/tinos-good.0.11.png "Tinos model's good performance")
@@ -182,6 +186,7 @@ The `Results` = `NO` means that either was stopped or crashed.
 | F1        |        0.229           |      0.52        |        0.33  |  0.39   |
 | Count Error |      0.086           |     -0.41        |       -0.70   |  -0.37 |
 | Ground Truth Count| 46.0           |      84         |        51.0   |   181   |
+
 *Table 4. Palairos case area prediction metrics using model 0.11* 
 
 ![](images/palairos-good.0.11.png "Palairos model's good performance")
