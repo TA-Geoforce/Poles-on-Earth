@@ -1,2 +1,7 @@
 .vscode/*
 .vscode/launch.json
+
+
+docs/0.11/prediction/*
+docs/0.11/train/*
+docs/0.11/validation/*

@@ -1,7 +1,7 @@
-# Poles on Earth
+# Poles on Earth 0.10
 
-- [Poles on Earth](#poles-on-earth)
-- [Definicions](#definicions)
+- [Poles on Earth 0.10](#poles-on-earth-010)
+- [Definitions](#definitions)
 - [License](#license)
 - [1. Introduction](#1-introduction)
 - [2. System Architecture](#2-system-architecture)
@@ -24,7 +24,7 @@
 
 
 
-# Definicions
+# Definitions
 
 | Terms            | Definitions                                                                     |
 | ---------------- | ------------------------------------------------------------------------------- |
