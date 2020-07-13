@@ -4,7 +4,7 @@
 &nbsp;
 
 [![Poles-on-Earth](https://img.shields.io/badge/PolesOnEarth-.com-yellow.svg)](https://polesonearth.com)
-[![Deep Learning](https://img.shields.io/badge/DeepLearning-2020-purple.svg)](./LICENSE)
+![Deep Learning](https://img.shields.io/badge/DeepLearning-2020-purple.svg)
 [![License](https://img.shields.io/badge/MIT-License%202.0-blue.svg)](./LICENSE)
 [![T.A. Geoforce](https://img.shields.io/badge/PC-T.A.GEOFORCE-black.svg)](https://tageoforce.com)
 
